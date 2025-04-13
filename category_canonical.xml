@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="1.7" type="plugin" group="jshoppingproducts" method="upgrade">
+<extension type="plugin" group="jshoppingproducts" method="upgrade">
 	<name>JoomShopping category canonical</name>
-	<creationDate>08.12.2018</creationDate>
-	<version>2.0.1</version>
+	<creationDate>13.04.2025</creationDate>
+	<version>2.0.2</version>
 	<author>MAXXmarketing</author>
 	<authorEmail>support@webdesigner-profi.de</authorEmail>
-	<authorUrl></authorUrl>
+	<authorUrl>https://www.webdesigner-profi.de/</authorUrl>
 	<copyright>MAXXmarketing GmbH</copyright>
 	<license>MAXXmarketing</license>
-	<description>
-		Category canonical
-    </description>
+	<description>Category canonical</description>
+	<namespace path="src">Joomla\Plugin\Jshoppingproducts\Category_canonical</namespace>
 	<files>
-		<filename plugin="category_canonical">category_canonical.php</filename>
+		<folder>services</folder>
+		<folder plugin="category_canonical">src</folder>
+		<filename>category_canonical.xml</filename>
 	</files>
 </extension>
